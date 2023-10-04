@@ -6,7 +6,6 @@ from portfolio1.dbo.NYPD_Shooting
 select count (INCIDENT_KEY) AS CASES
 from portfolio1.dbo.NYPD_Shooting
 
-
 -- reduced columns by useful informations order by occur date
 
 select OCCUR_DATE, BORO, PERP_AGE_GROUP, PERP_RACE, PERP_SEX, VIC_AGE_GROUP, VIC_RACE, VIC_SEX
